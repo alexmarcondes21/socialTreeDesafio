@@ -1,0 +1,92 @@
+
+* {
+font-family: poppins ;
+font-weight:300 , 600 ;
+
+
+}
+/*:root {
+--body-bg-color:#FAF7FD;
+--purple: #BB99DD;
+}
+*/
+
+
+.container{
+display: grid;
+align-self: center;
+margin-left: 1rem;
+}
+body{
+display: grid;
+background-color: rgba(250, 247, 253, 1);
+place-items: center;
+
+}
+
+li{
+display: inline;
+
+}
+
+
+.socialContainer {
+  list-style-type: none;
+  margin-left: 35rem; 
+}
+
+.fotoDePerfil {
+width: 200px;
+height: 200px;
+align-self: center;
+border-radius: 50%;
+position: absolute;
+
+}
+
+.borderEllipsis {
+border-radius: 50%;
+width: 213px ;
+height: 213px ;
+background-color: rgba(187, 153, 221, 1);
+position: relative;
+}
+
+a {
+/*align-self: center;*/
+font-size: 16px;
+margin-left: 40%;
+}
+ 
+
+.socialMediaBottom {
+align-items: center;
+margin-right: 30%;
+
+
+}
+
+.bottomLinks {
+  display:inline-block;
+  margin-left: 25rem;
+}
+
+.bottomLinks {
+display: flex;
+flex: 1;
+margin-top: 1rem;
+
+}
+
+label + label{
+margin-left: 32px;
+}
+
+.link1 , .link2 , .link3 , .link4 {
+width: 326px;
+height: 49px;
+margin: 16px;
+border: 2px solid rgba(187, 153, 221, 1);
+text-align: center;
+
+}
