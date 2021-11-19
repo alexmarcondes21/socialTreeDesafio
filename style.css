@@ -1,16 +1,15 @@
 
-* {
-font-family: poppins ;
-font-weight:300 , 600 ;
-
-
-}
 /*:root {
 --body-bg-color:#FAF7FD;
 --purple: #BB99DD;
-}
-*/
+font-family: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+font-weight: 300 , 600;
+}*/
 
+body{
+width: 1440px; ;
+height: 1024px;
+}
 
 /*.container{
 display: grid;
@@ -63,7 +62,9 @@ border-style: solid;
 a {
 /*align-self: center;*/
 font-size: 16px;
-margin-left: 10%;
+margin-left: 0%;
+font-size: 16px;
+/*margin-top: 429px;*/
 }
 
 .socialMediaBottom {
@@ -82,6 +83,7 @@ margin-right: 30%;
 display: flex;
 flex: 1;
 margin-top: 15rem;
+margin-left: 29rem;
 
 }
 
@@ -99,6 +101,10 @@ font-size: 16px ;
 width: 326px ;
 min-height: 49px;
 text-align: center ;
+padding-top: 12px;
+padding-bottom: -12px;
+font-size: 16px;
+font-style: bold;
 }
 
 #twitter {
